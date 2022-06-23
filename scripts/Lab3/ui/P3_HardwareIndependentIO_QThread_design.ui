@@ -207,12 +207,16 @@
        </layout>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButtonUrlCheckStart">
+       <widget class="QPushButton" name="pushButtonUrlStart">
         <property name="text">
          <string>Начать проверку</string>
         </property>
-        <property name="checkable">
-         <bool>true</bool>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonUrlStop">
+        <property name="text">
+         <string>Остановить проверку</string>
         </property>
        </widget>
       </item>

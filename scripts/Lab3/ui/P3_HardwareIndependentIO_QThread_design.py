@@ -152,11 +152,15 @@ class Ui_Form(object):
 
         self.verticalLayout_2.addLayout(self.horizontalLayout_7)
 
-        self.pushButtonUrlCheckStart = QPushButton(self.frame_2)
-        self.pushButtonUrlCheckStart.setObjectName(u"pushButtonUrlCheckStart")
-        self.pushButtonUrlCheckStart.setCheckable(True)
+        self.pushButtonUrlStart = QPushButton(self.frame_2)
+        self.pushButtonUrlStart.setObjectName(u"pushButtonUrlStart")
 
-        self.verticalLayout_2.addWidget(self.pushButtonUrlCheckStart)
+        self.verticalLayout_2.addWidget(self.pushButtonUrlStart)
+
+        self.pushButtonUrlStop = QPushButton(self.frame_2)
+        self.pushButtonUrlStop.setObjectName(u"pushButtonUrlStop")
+
+        self.verticalLayout_2.addWidget(self.pushButtonUrlStop)
 
         self.label_14 = QLabel(self.frame_2)
         self.label_14.setObjectName(u"label_14")
@@ -302,7 +306,8 @@ class Ui_Form(object):
         self.label_9.setText(QCoreApplication.translate("Form", u"URL:", None))
         self.label_12.setText(QCoreApplication.translate("Form", u"\u041f\u0440\u043e\u0432\u0435\u0440\u044f\u0442\u044c \u043a\u0430\u0436\u0434\u044b\u0435:", None))
         self.label_13.setText(QCoreApplication.translate("Form", u"\u0441\u0435\u043a.", None))
-        self.pushButtonUrlCheckStart.setText(QCoreApplication.translate("Form", u"\u041d\u0430\u0447\u0430\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443", None))
+        self.pushButtonUrlStart.setText(QCoreApplication.translate("Form", u"\u041d\u0430\u0447\u0430\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443", None))
+        self.pushButtonUrlStop.setText(QCoreApplication.translate("Form", u"\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443", None))
         self.label_14.setText(QCoreApplication.translate("Form", u"\u041b\u043e\u0433:", None))
         self.label_3.setText(QCoreApplication.translate("Form", u"\u0421\u0442\u0430\u0442\u0443\u0441 \u0441\u0438\u0441\u0442\u0435\u043c\u044b:", None))
         self.label_16.setText(QCoreApplication.translate("Form", u"\u041e\u0431\u043d\u043e\u0432\u043b\u044f\u0442\u044c \u043a\u0430\u0436\u0434\u044b\u0435:", None))
